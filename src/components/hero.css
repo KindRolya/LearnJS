@@ -1,0 +1,48 @@
+
+
+.slidershow {
+    height: 36%;
+    width: 50%;
+    margin-top: -730px;
+    overflow: hidden;
+    text-align: center;
+    position:absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0 , 0, .25);
+    
+}   
+
+.previousButton, .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: url('https://svgur.com/i/wNi.svg') no-repeat center center / 35px;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    cursor: pointer;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+}
+
+.previousButton {
+left: 0;
+-webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
+      transform: rotate(180deg) translateY(calc(50% + 0px));
+}
+
+.nextButton {
+right: 0;
+}
+@media screen and (max-width: 850px){
+    .slidershow {
+        display: none;
+    }
+
+}

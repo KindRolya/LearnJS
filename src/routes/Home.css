@@ -1,0 +1,8 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #a6305f , #2518ad);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
